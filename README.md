@@ -1,12 +1,12 @@
 ### simple_mjpeg-server
 
 ##### you need have
-- ubuntu (or any linux distribution)
-- install gstreamer
+- Ubuntu (or any Linux distribution)
+- install GStreamer
 - install Node.js (latest lts)
-- usb camera
+- USB camera
 
-##### test gstreamer can work
+##### test GStreamer can work
 ```
 gst-launch-1.0 v4l2src ! videoconvert ! ximagesink
 ```
@@ -17,7 +17,7 @@ gst-launch-1.0 v4l2src ! videoconvert ! ximagesink
 node server.js
 ```
 
-2. run gstreamer command
+2. run GStreamer command
 ```
 gst-launch-1.0 v4l2src ! videoconvert ! jpegenc ! tcpclientsink host=127.0.0.1 port=53301
 ```
