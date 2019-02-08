@@ -3,7 +3,7 @@
 ##### you need have
 - ubuntu (or any linux distribution)
 - install gstreamer
-- install nodejs (latest lts)
+- install Node.js (latest lts)
 - usb camera
 
 ##### test gstreamer can work
